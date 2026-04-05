@@ -1,5 +1,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/siirilahti/software-testing-assignment/badge.svg)](https://coveralls.io/github/siirilahti/software-testing-assignment)
 
+# Software Testing Assignment
+
+Unit tests for a JavaScript library implemented using Vitest, GitHub Actions and Coveralls.
+
 # Student template
 
 ## Purpose of this repository
