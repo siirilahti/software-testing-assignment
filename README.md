@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/siirilahti/software-testing-assignment/badge.svg)](https://coveralls.io/github/siirilahti/software-testing-assignment)
+
 # Student template
 
 ## Purpose of this repository
