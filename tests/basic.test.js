@@ -1,7 +1,6 @@
 import { describe, it, expect } from "vitest"
 import defaultTo from '../src/defaultTo.js'
 import eq from '../src/eq.js'
-//import chunk from '../src/chunk.js'
 import get from '../src/get.js'
 import isEmpty from '../src/isEmpty.js'
 import defaultToAny from '../src/defaultToAny.js'
@@ -46,29 +45,6 @@ describe('eq function', () => {
         expect(eq({ a: 1 }, { a: 1 })).toBe(false)
     })
 })
-
-//BUG FOUND IN chunk,js
-//resIndex in never incremented, causing incorrect results
-//
-//describe('chunk function', () => {
-//    it('splits an array into chunks of given size', () => {
-//        expect(chunk(['a', 'b', 'c', 'd'], 2)).toEqual([['a', 'b'], ['c', 'd']])
-//    })
-//
-//    it('puts the remainder into the last chunk', () => {
-//        expect(chunk(['a', 'b', 'c', 'd'], 3)).toEqual([['a', 'b', 'c'], ['d']])
-//    })
-//
-//    it('returns an empty array for null input', () => {
-//        expect(chunk(null, 2)).toEqual([])
-//    })
-//
-//    it('returns an empty array when size is less than 1', () => {
-//        expect(chunk([1, 2, 3], 0)).toEqual([])
-//    })
-//
-//
-//})
 
 describe('get function', () => {
     const object = {
